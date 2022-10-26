@@ -1,0 +1,17 @@
+body {background-color: white;
+background-image: url(../imagenes/efecto.jpg);
+background-repeat: round;
+}
+.tituloreceta{color: red;
+  font-style: oblique;
+  font-weight: bold;
+font-size: xx-large;
+text-decoration: underline;
+text-align: center;
+}
+.preparacion{text-decoration: underline;
+}
+.ingredientess{text-decoration: underline;}
+
+.budinterminado{width: 450px;
+height: 300px}
