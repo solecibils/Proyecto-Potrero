@@ -2,16 +2,39 @@ body {background-color: white;
 background-image: url(../imagenes/efecto.jpg);
 background-repeat: round;
 }
-.tituloreceta{color: red;
+.tituloreceta{color: white;
   font-style: oblique;
   font-weight: bold;
 font-size: xx-large;
 text-decoration: underline;
 text-align: center;
 }
+header{display: flex; justify-content: center; justify-content: space-between; align-items: center;
+  background-color: red;border: 5px white solid}
+.iconflex{width: 15%;
+    display: flex;
+    justify-content: space-around;
+    margin: 8px;}
+.cocinera{width: 70px; bottom: 8px; right: 8px}
+.facebook{width: 70px; bottom: 100px; right: 10px}
+.instagram{width: 70px; bottom: 100px; right: 10px}
+
+.links {color: black;
+  background-color:
+  font-style: oblique;
+  font-weight: bold;
+font-size: x-large;
+display: flex;
+justify-content: center;}
+
 .preparacion{text-decoration: underline;
 }
 .ingredientess{text-decoration: underline;}
 
 .budinterminado{width: 450px;
 height: 300px}
+
+
+section{background-color: white;}
+aside{background-color: pink; display: flex;}
+.iconowhats{width: 50px; position: fixed; bottom: 10px; right: 10px}
