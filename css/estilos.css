@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+
 body {background-color: white;
 background-image: url(../imagenes/efecto.jpg);
 background-repeat: round;
 }
 .tituloreceta{color: white;
-  font-style: oblique;
-  font-weight: bold;
+  font-family: 'Barlow', sans-serif;
 font-size: xx-large;
 text-decoration: underline;
 text-align: center;
@@ -13,7 +15,7 @@ header{display: flex; flex-wrap: wrap;
   justify-content: center;
   justify-content: space-around;
   align-items: center;
-  background-color: red;border: 5px white solid}
+  background-color: #ff2977;border: 8px white solid}
 .iconflex{width: 15%;
     display: flex;
     justify-content: space-around;
@@ -22,33 +24,43 @@ header{display: flex; flex-wrap: wrap;
 .facebook{width: 70px; bottom: 100px; right: 10px}
 .instagram{width: 70px; bottom: 100px; right: 10px}
 
-.links {color: black;
-  background-color:
-  font-style: oblique;
-  font-weight: bold;
-font-size: x-large;
+.linkreceta {color: black;
+  font-family: 'Barlow', sans-serif;
+font-size: xx-large;
 display: flex;
 justify-content: center;}
 
-.preparacion{text-decoration: underline;
+.preparacion{text-decoration: underline;font-family: 'Barlow', sans-serif;
 }
-.ingredientess{text-decoration: underline;}
+.ingredientess{text-decoration: underline;font-family: 'Barlow', sans-serif;}
 
-.budinterminado{width: 450px;
-height: 300px}
-.videoreceta {width: 450px;
-height: 300px}
+.multimedia1{display: flex;justify-content: space-around;align-items: center;}
 
+.budinterminado{width: 30%;
+}
+.videoreceta {height: 50%;
+}
 
-section{background-color: white;}
-aside{background-color: pink; display: flex; justify-content: space-around; align-items: flex-end;}
+nav{background-image:url(../imagenes/utensillos.jpg);
+  width: 1000px;
+  height: 200px; display: flex; flex-wrap: wrap;
+    justify-content: center; align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+a:hover{color: pink}
+
+section{background-color: white;
+}
+
+aside{background-color: pink; display: flex;flex-wrap: wrap; justify-content: space-around; align-items: flex-end;}
 .iconowhats{width: 50px; position: fixed; bottom: 10px; right: 10px}
 
 footer{display: flex; flex-wrap: wrap;
   justify-content: center;
   justify-content: space-around;
   align-items: center;
-  background-color: red;border: 5px white solid}
+  background-color: #ff2977;border: 5px white solid}
 .iconflex{width: 15%;
     display: flex;
     justify-content: space-around;
@@ -56,3 +68,15 @@ footer{display: flex; flex-wrap: wrap;
   .desarrollado {color: white;
     font-style: oblique;
     font-weight: bold;}
+
+.linksextras {color: black;text-align: center;
+  font-family: 'Barlow', sans-serif;
+font-size: x-large;
+display: flex;justify-content: center;
+justify-content: space-around; align-items: center;}
+
+.botonindex {color: black;
+  font-style: oblique;
+  font-weight: bold;
+font-size: large;display: flex;justify-content: center;
+}
