@@ -28,33 +28,45 @@ header{display: flex; flex-wrap: wrap;
   font-family: 'Barlow', sans-serif;
 font-size: xx-large;
 display: flex;
+flex-wrap: wrap;
 justify-content: center;}
 
 .preparacion{text-decoration: underline;font-family: 'Barlow', sans-serif;
 }
 .ingredientess{text-decoration: underline;font-family: 'Barlow', sans-serif;}
 
-.multimedia1{display: flex;justify-content: space-around;align-items: center;}
 
-.budinterminado{width: 30%;
-}
-.videoreceta {height: 50%;
-}
-
-nav{background-image:url(../imagenes/utensillos.jpg);
-  width: 1000px;
-  height: 200px; display: flex; flex-wrap: wrap;
+nav{background-image: url(../imagenes/utensillos.jpg);background-size: contain;
+  height: 100%;
+   display: flex; flex-wrap: wrap;
     justify-content: center; align-content: center;
     margin-left: auto;
     margin-right: auto;
 }
+
 a:hover{color: pink}
 
-section{background-color: white;
+.row{display: flex;flex-wrap: wrap;
 }
 
-aside{background-color: pink; display: flex;flex-wrap: wrap; justify-content: space-around; align-items: flex-end;}
-.iconowhats{width: 50px; position: fixed; bottom: 10px; right: 10px}
+aside {background-color: white;text-align:left; padding: 100px;
+
+}
+
+aside :hover {background-color: red;}
+
+
+
+aside2 {background-color: pink;
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  align-content:center; padding: }
+
+
+
+.iconowhats {width: 50px; position: fixed; bottom: 10px; right: 10px}
+
 
 footer{display: flex; flex-wrap: wrap;
   justify-content: center;
@@ -79,4 +91,18 @@ justify-content: space-around; align-items: center;}
   font-style: oblique;
   font-weight: bold;
 font-size: large;display: flex;justify-content: center;
+}
+
+
+@media (max-width: 800px)
+{header {background-color: yellow;}
+}
+
+@media (max-width: 700px){
+  .video {display: none;}
+}
+
+@media (min-width: 800px)  {
+  .cocinera2{display: none;}
+
 }
