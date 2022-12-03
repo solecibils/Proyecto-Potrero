@@ -49,11 +49,10 @@ a:hover{color: pink}
 .row{display: flex;flex-wrap: wrap;
 }
 
-aside {background-color: white;text-align:left; padding: 50px;
-
+aside {text-align:center; padding: 50px;
 }
 
-aside :hover {background-color: red;}
+aside :hover {background-color: white;}
 
 
 aside2 {background-color: pink;
